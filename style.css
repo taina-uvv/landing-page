@@ -54,6 +54,14 @@ h3{
     padding: 3px;
     background-color: white;
 }
+.container{
+    background-color: rgb(200, 137, 255); 
+    width: 28%; 
+    position: absolute; 
+    transform: translate(235%, 5%); 
+    border-radius: 15px;
+    padding: 10px;
+}
 
 
   
