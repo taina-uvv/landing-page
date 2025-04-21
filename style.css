@@ -38,6 +38,14 @@ h3{
     display: flex;
     flex-wrap: wrap;
   }
+  h1,.links{
+    display: flex;
+    flex-direction: row;
+  }
+  h1, .p-central{
+    display: flex;
+    flex-direction: column;
+  }
   a:hover {
     color: #007bff;
   }
@@ -133,11 +141,9 @@ main{
   left: 50%; 
   top: 3%;
 }
-
-@media(max-width: 767px){
-  h1,.links, .p-central{
+@media (max-width: 768px) {
+  h1,.links {
     flex-direction: column;
   }
-
 }
   
