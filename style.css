@@ -169,11 +169,6 @@ h1, .subtitulo-contato, main{
   }
 
   p, .p-serviço {
-    position: static;
-    left: auto;
-    top: auto;
-    transform: none;
-    margin: 10px 0;
     width: 100%;
     flex-direction: column;
   }
