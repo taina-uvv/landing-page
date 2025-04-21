@@ -133,4 +133,11 @@ main{
   left: 50%; 
   top: 3%;
 }
+
+@media(max-width: 767px){
+  h1,.links, .p-central{
+    flex-direction: column;
+  }
+
+}
   
