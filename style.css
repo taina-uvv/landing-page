@@ -141,6 +141,15 @@ main{
   left: 50%; 
   top: 3%;
 }
+h1, .subtitulo-contato, main{
+  flex-direction: column;
+}
+.foto-curriculo, .container{
+  flex-direction: column;
+}
+.serviço, .caixa-serviço{
+  flex-direction: row;
+}
 @media (max-width: 768px) {
   .links,
   .image-com-borda,
@@ -160,7 +169,13 @@ main{
   }
 
   p, .p-serviço {
+    position: static;
+    left: auto;
+    top: auto;
+    transform: none;
+    margin: 10px 0;
     width: 100%;
+    flex-direction: column;
   }
 
   .links {
