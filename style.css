@@ -142,8 +142,35 @@ main{
   top: 3%;
 }
 @media (max-width: 768px) {
-  h1,.links {
+  .links,
+  .image-com-borda,
+  .foto-curriculo,
+  .container,
+  .p-central,
+  .serviço,
+  .subtitulo-contato,
+  .label-descrição,
+  main {
+    position: static;
+    width: 100%;
+    left: auto;
+    top: auto;
+    transform: none;
+    margin: 10px 0;
+  }
+
+  p, .p-serviço {
+    width: 100%;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
     flex-direction: column;
   }
 }
+
   
