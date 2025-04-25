@@ -140,6 +140,7 @@ main{
   position: absolute; 
   left: 50%; 
   top: 3%;
+  display: block;
 }
 h1, .subtitulo-contato, main{
   flex-direction: column;
@@ -150,6 +151,7 @@ h1, .subtitulo-contato, main{
 .serviço, .caixa-serviço{
   flex-direction: row;
 }
+
 @media (max-width: 768px) {
   .links,
   .image-com-borda,
@@ -180,6 +182,163 @@ h1, .subtitulo-contato, main{
 
   h1 {
     flex-direction: column;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .links {
+    left: 70%;
+    width: 25%;
+  }
+  
+  .image-com-borda {
+    width: 25%;
+    left: 70%;
+  }
+  
+  .foto-curriculo {
+    width: 25%;
+    left: 65%;
+  }
+  
+  .container {
+    width: 30%;
+    transform: translate(210%, 5%);
+  }
+  
+  .p-central {
+    width: 50%;
+    left: 20%;
+  }
+  
+  main {
+    width: 55%;
+    left: 20%;
+  }
+  
+  .serviço {
+    width: 50%;
+    left: 45%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  body {
+    font-size: 18px;
+  }
+  
+  .links {
+    top: 5%;
+    left: 74%;
+    width: 25%;
+  }
+  
+  .image-com-borda {
+    width: 22%;
+    left: 75%;
+  }
+  
+  .foto-curriculo {
+    width: 22%;
+    left: 70%;
+    margin-top: 5%;
+  }
+  
+  .container {
+    width: 25%;
+    transform: translate(250%, 5%);
+  }
+  
+  .p-central {
+    width: 45%;
+    left: 22%;
+  }
+  
+  main {
+    width: 45%;
+    left: 26%;
+  }
+  
+  .serviço {
+    width: 45%;
+    left: 47%;
+  }
+  
+  .subtitulo-contato {
+    margin-top: 2%;
+    left: 40%;
+  }
+}
+
+
+@media (min-width: 1441px) {
+  body {
+    font-size: 20px;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  .links {
+    left: 80%;
+    width: 15%;
+    padding: 10px;
+  }
+  
+  .image-com-borda {
+    width: 18%;
+    left: 80%;
+  }
+  
+  .foto-curriculo {
+    width: 18%;
+    left: 75%;
+  }
+  
+  .container {
+    width: 20%;
+    transform: translate(300%, 5%);
+  }
+  
+  .p-central {
+    width: 40%;
+    left: 25%;
+    padding: 15px;
+  }
+  
+  main {
+    width: 40%;
+    left: 25%;
+    padding: 25px;
+  }
+  
+  .serviço {
+    width: 40%;
+    left: 50%;
+    padding: 15px;
+  }
+  
+  .subtitulo-contato {
+    left: 45%;
+    font-size: 1.5em;
+  }
+  
+  .label-descrição {
+    left: 52%;
+  }
+
+  a {
+    padding: 5px;
   }
 }
 
